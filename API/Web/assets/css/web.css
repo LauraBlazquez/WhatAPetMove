@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* PRINCIPAL PAGE */
+.video {
+    background-color: #1f3a4d;
+    height: 40vh;
+}
+
+nav img {
+    width: 4em;
+    border-radius: 15px;
+}
+
+nav li {
+    font-size: 18px;
+    margin: 0 1% 0 2%;
+}
+
+.btn {
+    background-color: #d9a0d0;
+    border-color: #d9a0d0;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #a6ccf5;
+    border-color: #a6ccf5;
+}
+
+.navbar {
+    background-color: #0087aa;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-toggle {
+    background-color: #0087aa;
+    border-color: #0087aa;
+}
+
+.dropdown-menu {
+    background-color: #a6ccf57e;
+    border: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #d9a0d093;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: center;
+    align-items: start;
+    width: 80%;
+}
+
+.page h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 1%;
+    width: 95%;
+}
+
+.page p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 1%;
+    width: 95%;
+}
+
+hr {
+    width: 80%;
+}
+
+footer {
+    background-color: #1f3a4d;
+}
+
+footer p,
+.nav-link,
+.subHeader,
+.navbar a {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.436);
+}
+
+footer img {
+    width: 15%;
+}
+
+/* LOG IN */
+form {
+    background-color: #0088aace;
+    border-radius: 15px;;
+}
+
+form h1 {
+    background-color: white;
+    border-radius: 15px;
+}
+
+label,
+input {
+    padding: 2%;
+    margin: 2% 0 2% 0;
+    border: none;
+    border-radius: 15px;
+}
+
+input {
+    width: 60%;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 96%;
+}
+
+form button {
+    margin: 3% 0 0 0;
+    padding: 2%;
+}
+
+form a {
+    margin-top: 3%;
+}
+
+/* GALLERY */
+.page img {
+    width: 25%;
+    margin: 0 1% 1% 1%;
+}
+
+/* WIKI */
+article {
+    margin: 2% 0 0 1%
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card img {
+    width: 98%;
+    box-shadow: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* RANKING */
+table {
+    width: 85%;
+    margin: 2% 0 1% 0;
+    /*background-color: #a6ccf5b6;*/
+}
+
+td,
+th {
+    padding: 1% 0 1% 1%;
+}
+
+#top {
+    width: 25%;
+}
+
+tr {
+    border: #1f3a4d 1px dotted;  
+}
+
+/* CONTACT */
+.contact input,
+textarea {
+    width: 70%;
+}
+
+textarea {
+    margin-top: 2%;
+}
+
+.contactFields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 96%;
+}
